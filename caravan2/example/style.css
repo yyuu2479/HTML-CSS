@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-
+/* ヘッダー */
 header{
   width: 10%;
 }
@@ -13,6 +13,7 @@ header{
   font-size: 22px;
 }
 
+/* ナビゲーション */
 .nav{
   text-align: center;
 }
