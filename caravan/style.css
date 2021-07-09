@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-
+/* ヘッダー */
 .header{
   width: 100%;
   height: 120px;
@@ -24,6 +24,7 @@
   background-color: pink;
 }
 
+/* メインビジュアル */
 .main-visual{
   width: 100%;
   height: 300px;
@@ -36,6 +37,7 @@
   background-color: gold;
 }
 
+/* メインコンテンツ */
 .main{
   width: 840px;
   display: flex;
@@ -55,6 +57,7 @@
   background-color: palegreen;
 }
 
+/* フッター */
 .footer{
   width: 100%;
   height: 120px;
