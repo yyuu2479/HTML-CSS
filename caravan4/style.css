@@ -80,10 +80,43 @@ main{
   line-height: 0.6;
 }
 
+.blog-box{
+  padding-top: 50px;
+}
+
 .blog-item{
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blog-image{
+  height: 180px;
+}
+
+.blog-text{
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.blog-date{
+  font-size: 12px;
+  display: inline-block;
+}
+
+.blog-text-heading{
+  padding-bottom: 15px;
+}
+
+.category{
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
 }
 
 .sidebar{
