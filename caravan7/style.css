@@ -236,24 +236,6 @@ footer{
 
 
 /* メディアクエリ */
-.social i{
-  color: black;
-}
-
-@media screen and (max-width: 1024px){
-  .social i{
-    color: green;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .social i{
-    color: red;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .social i{
-    color: blue;
-  }
+@media screen and (max-width: 425px){
+  
 }
