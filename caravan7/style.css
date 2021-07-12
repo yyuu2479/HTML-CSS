@@ -237,5 +237,60 @@ footer{
 
 /* メディアクエリ */
 @media screen and (max-width: 425px){
-  
+  .social i{
+    display: none;
+  }
+
+  .nav-list-item{
+    display: block;
+  }
+
+  .nav-list-item:nth-child(2){
+    margin: 3%;
+  }
+
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .blog{
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-box{
+    margin: 0 2%;
+  }
+
+  .blog-image{
+    width: 48%;
+  }
+
+  .blog-text{
+    width: 48%;
+  }
+
+  .main-visual-content{
+    width: 100%;
+  }
+
+  .sidebar{
+    width: 100%;
+    padding: 0 3%;
+  }
+
+  .popular{
+    margin-top: 20%;
+  }
+
+  .instagram-box{
+    width: 48%;
+    padding-top: 50%;
+    margin-bottom:5%;
+  }
+
+  .instagram-box:nth-child(odd){
+    margin-right: 4%;
+  }
 }
